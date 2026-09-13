@@ -47,8 +47,8 @@ const Bio = () => {
           {author?.summary || null}
           {` `}
           <br />
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Подписывайтесь в Twitter
+          <a href={`https://instagram.com/${social?.twitter || ``}`}>
+            Подписывайтесь в Instagram
           </a>
         </p>
       )}
